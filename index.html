@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Multiple select</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<h1>Multiple select</h1>
+
+<div class="centered">
+
+    <div class="dropdown__select dropdown__select-first">
+        <div class="select__title select__title-first">
+            <span class="useless-first">Select</span>
+            industry
+        </div>
+        <span class="arrow arrow-first"></span>
+    </div>
+    <ul class="dropdown__list dropdown__list-first">
+        <li class="dropdown__item">
+            <label class="checkbox">
+                <input class="checkbox__input" type="checkbox">
+                <span class="check__box"></span>
+                <span class="checkbox__label">Food / beverage</span>
+            </label>
+        </li>
+        <li class="dropdown__item">
+            <label class="checkbox">
+                <input class="checkbox__input" type="checkbox">
+                <span class="check__box"></span>
+                <span class="checkbox__label">Travel</span>
+            </label>
+        </li>
+        <li class="dropdown__item">
+            <label class="checkbox">
+                <input class="checkbox__input" type="checkbox">
+                <span class="check__box"></span>
+                <span class="checkbox__label">Automotive</span>
+            </label>
+        </li>
+        <li class="dropdown__item">
+            <label class="checkbox">
+                <input class="checkbox__input" type="checkbox">
+                <span class="check__box"></span>
+                <span class="checkbox__label">Education</span>
+            </label>
+        </li>
+        <li class="dropdown__item">
+            <label class="checkbox">
+                <input class="checkbox__input" type="checkbox">
+                <span class="check__box"></span>
+                <span class="checkbox__label">Government</span>
+            </label>
+        </li>
+        <li class="dropdown__item">
+            <label class="checkbox">
+                <input class="checkbox__input" type="checkbox">
+                <span class="check__box"></span>
+                <span class="checkbox__label">Nonprofit</span>
+            </label>
+        </li>
+        <li class="dropdown__item">
+            <label class="checkbox">
+                <input class="checkbox__input" type="checkbox">
+                <span class="check__box"></span>
+                <span class="checkbox__label">Other</span>
+            </label>
+        </li>
+    </ul>
+
+    <div class="dropdown__select dropdown__select-second">
+        <span class="useless-second">Pick desired amenities</span>
+        <div class="select__title select__title-second">Multiline amenities picked</div>
+        <ul class="select__dropped select__dropped-first">
+            <li class="select__dropped__item current">Free parking</li>
+            <li class="select__dropped__item">Pool</li>
+            <li class="select__dropped__item">Kitchen</li>
+            <li class="select__dropped__item">Bathroom</li>
+            <li class="select__dropped__item">Pet-friendly</li>
+            <li class="select__dropped__item">Free Wi-fi</li>
+            <li class="select__dropped__item">Gym</li>
+            <li class="select__dropped__item">Breakfast</li>
+        </ul>
+        <span class="arrow arrow-second"></span>
+        <span class="close">&#10006</span>
+    </div>
+    <ul class="dropdown__list dropdown__list-second">
+        <li class="dropdown__item">
+            <ul class="select__dropped select__dropped-second">
+                <li class="select__dropped__item">Gym</li>
+                <li class="select__dropped__item">Breakfast</li>
+            </ul>
+        </li>
+        <li class="dropdown__item">
+            <div class="search__wrap">
+                <svg height="20" style="margin-right: 5px" viewBox="0 0 512 512" width="20"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z"
+                          fill="#818181"/>
+                </svg>
+                <label>
+                    <input class="search" placeholder="People, places, events" type="text">
+                </label>
+            </div>
+        </li>
+        <li class="dropdown__item">
+            <label class="checkbox">
+                <input class="checkbox__input" type="checkbox">
+                <span class="check__box"></span>
+                <span class="checkbox__label">Bathroom</span>
+            </label>
+        </li>
+        <li class="dropdown__item">
+            <label class="checkbox">
+                <input class="checkbox__input" type="checkbox">
+                <span class="check__box"></span>
+                <span class="checkbox__label">Breakfast</span>
+            </label>
+        </li>
+        <li class="dropdown__item">
+            <label class="checkbox">
+                <input class="checkbox__input" type="checkbox">
+                <span class="check__box"></span>
+                <span class="checkbox__label">Gym</span>
+            </label>
+        </li>
+        <li class="dropdown__item">
+            <label class="checkbox">
+                <input class="checkbox__input" type="checkbox">
+                <span class="check__box"></span>
+                <span class="checkbox__label">Free parking</span>
+            </label>
+        </li>
+        <li class="dropdown__item">
+            <label class="checkbox">
+                <input class="checkbox__input" type="checkbox">
+                <span class="check__box"></span>
+                <span class="checkbox__label">Free Wi-Fi</span>
+            </label>
+        </li>
+        <li class="dropdown__item">
+            <label class="checkbox">
+                <input class="checkbox__input" type="checkbox">
+                <span class="check__box"></span>
+                <span class="checkbox__label">Pet-friendly</span>
+            </label>
+        </li>
+        <li class="dropdown__item border"></li>
+        <li class="dropdown__item">
+            <label class="checkbox">
+                <input class="checkbox__input" type="checkbox">
+                <span class="check__box"></span>
+                <span class="checkbox__label">I don't need a toilet paper</span>
+            </label>
+        </li>
+        <li class="dropdown__item">
+            <label class="checkbox">
+                <input class="checkbox__input" type="checkbox">
+                <span class="check__box"></span>
+                <span class="checkbox__label">
+                    Please, wake me up at <span class="highlighted-blue">Set time</span>
+                </span>
+            </label>
+        </li>
+    </ul>
+
+</div>
+
+<script>
+
+    document.querySelector('.dropdown__select-first').addEventListener('click', () => {
+        document.querySelector('.dropdown__select-first').classList.toggle('dropped');
+        document.querySelector('.arrow-first').classList.toggle('rotate');
+        document.querySelector('.dropdown__list-first').classList.toggle('show');
+        document.querySelector('.useless-first').classList.toggle('hide');
+        document.querySelector('.select__title-first').classList.toggle('transform');
+    });
+
+    document.querySelector('.dropdown__select-second').addEventListener('click', () => {
+        document.querySelector('.select__dropped-first').classList.toggle('show');
+        document.querySelector('.dropdown__select-second').classList.toggle('dropped');
+        document.querySelector('.arrow-second').classList.toggle('hide');
+        document.querySelector('.close').classList.toggle('show');
+        document.querySelector('.dropdown__list-second').classList.toggle('show');
+        document.querySelector('.useless-second').classList.toggle('hide');
+        document.querySelector('.select__title-second').classList.toggle('transform');
+    });
+
+</script>
+
+</body>
+</html>
